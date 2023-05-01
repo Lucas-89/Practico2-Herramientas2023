@@ -11,5 +11,6 @@ namespace StockElectronica.Models
         public string NombreMarca{get;set;}
         public string Origen {get;set;}
         public List<Producto> Productos{get;}= new List<Producto>();
+        public List<Modelo> Modelos{get;}= new List<Modelo>();
     }
 }
